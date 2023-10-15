@@ -11,9 +11,10 @@
     "oss:cli": "ossutil cp -rf ./dist oss://merlin-website/blog/"
   },
   "devDependencies": {
-    "vitepress": "1.0.0-alpha.75",
+    "vitepress": "^1.0.0-rc.20",
     "vitepress-auto-nav-sidebar": "0.0.4",
-    "vue": "^3.3.4"
+    "vue": "^3.3.4",
+    "less": "^4.2.0"
   },
   "description": "个人博客",
   "directories": {
