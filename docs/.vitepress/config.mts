@@ -19,7 +19,7 @@ export default defineConfig({
 
 
   //启用深色模式
-  appearance:'dark',
+  //appearance:'dark',
 
   //多语言
   locales: {
