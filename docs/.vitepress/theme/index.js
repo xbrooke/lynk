@@ -3,6 +3,7 @@ import DefaultTheme from 'vitepress/theme'
 // import XMindViewer from './plugins/xmind-viewer/XMindViewer.vue'
 import Background from './components/Background.vue'
 import './custom.css'
+import './var.css'
 import Layout from './components/Layout.vue'
 import SpotlightCursorText from './components/SpotlightCursorText.vue'
 

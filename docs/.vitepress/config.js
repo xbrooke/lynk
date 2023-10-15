@@ -72,7 +72,7 @@ export default defineConfig({
       ...nav,
       {
         text: '🏄🏻‍♂️ 软件下载',
-        link: 'https://docs.qq.com/sheet/DTEpHYkdwT3dtRGZB?tab=0l3gn4'
+        link: 'https://algorithm.merlin218.top'
       }
     ], sidebar,
     footer: {
