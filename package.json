@@ -11,9 +11,9 @@
     "oss:cli": "ossutil cp -rf ./dist oss://merlin-website/blog/"
   },
   "devDependencies": {
-    "vitepress": "1.0.0-alpha.29",
-    "vitepress-auto-nav-sidebar": "0.0.4",
-    "vue": "^3.2.37"
+    "vitepress": "1.0.0-rc.22",
+    "vitepress-auto-nav-sidebar": "0.0.5",
+    "vue": "^3.3.4"
   },
   "description": "个人博客",
   "directories": {
@@ -29,13 +29,13 @@
   },
   "homepage": "https://github.com/Merlin218/Merlin218.github.io#readme",
   "dependencies": {
-    "@algolia/client-search": "^4.14.2",
-    "@codemirror/lang-html": "^6.1.0",
-    "@codemirror/lang-javascript": "^6.0.2",
-    "@codemirror/theme-one-dark": "^6.0.0",
+    "@algolia/client-search": "^4.20.0",
+    "@codemirror/lang-html": "^6.4.6",
+    "@codemirror/lang-javascript": "^6.2.1",
+    "@codemirror/theme-one-dark": "^6.1.2",
     "codemirror": "^6.0.1",
-    "unplugin-icons": "^0.14.8",
-    "vue-codemirror": "^6.0.2",
-    "xmind-embed-viewer": "^1.0.7"
+    "unplugin-icons": "^0.17.0",
+    "vue-codemirror": "^6.1.1",
+    "xmind-embed-viewer": "^1.2.0"
   }
 }
