@@ -1,0 +1,12 @@
+node_modules
+.temp
+.cache
+._*
+.obsidian
+.vscode
+.idea
+dist
+/**/code
+/**/resource
+pnpm-global
+.DS_Store

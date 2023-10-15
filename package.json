@@ -1,0 +1,41 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "merlin <863176846@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs --port=8080",
+    "oss:cli": "ossutil cp -rf ./dist oss://merlin-website/blog/"
+  },
+  "devDependencies": {
+    "vitepress": "1.0.0-alpha.29",
+    "vitepress-auto-nav-sidebar": "0.0.4",
+    "vue": "^3.2.37"
+  },
+  "description": "个人博客",
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Merlin218/Merlin218.github.io.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Merlin218/Merlin218.github.io/issues"
+  },
+  "homepage": "https://github.com/Merlin218/Merlin218.github.io#readme",
+  "dependencies": {
+    "@algolia/client-search": "^4.14.2",
+    "@codemirror/lang-html": "^6.1.0",
+    "@codemirror/lang-javascript": "^6.0.2",
+    "@codemirror/theme-one-dark": "^6.0.0",
+    "codemirror": "^6.0.1",
+    "unplugin-icons": "^0.14.8",
+    "vue-codemirror": "^6.0.2",
+    "xmind-embed-viewer": "^1.0.7"
+  }
+}
