@@ -1,0 +1,29 @@
+{
+  "hash": "d0eaeb85",
+  "browserHash": "ced21055",
+  "optimized": {
+    "vue": {
+      "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "file": "vue.js",
+      "fileHash": "13c8c8bd",
+      "needsInterop": false
+    },
+    "typeit": {
+      "src": "../../../../node_modules/typeit/dist/index.es.js",
+      "file": "typeit.js",
+      "fileHash": "a217de11",
+      "needsInterop": false
+    },
+    "css-doodle": {
+      "src": "../../../../node_modules/css-doodle/src/index.js",
+      "file": "css-doodle.js",
+      "fileHash": "6eafbe57",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-SSYGV25P": {
+      "file": "chunk-SSYGV25P.js"
+    }
+  }
+}

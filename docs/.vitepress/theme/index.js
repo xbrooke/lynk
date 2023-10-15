@@ -4,7 +4,6 @@ import DefaultTheme from 'vitepress/theme'
 import Background from './components/Background.vue'
 import './custom.css'
 import './var.css'
-import './index.css'
 import Layout from './components/Layout.vue'
 import SpotlightCursorText from './components/SpotlightCursorText.vue'
 
