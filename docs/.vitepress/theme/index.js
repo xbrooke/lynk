@@ -15,4 +15,5 @@ export default {
     app.component('Background', Background)
     app.component('SpotlightCursorText', SpotlightCursorText)
   }
+
 }
