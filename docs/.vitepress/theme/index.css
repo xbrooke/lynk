@@ -1,0 +1,132 @@
+:root {
+  --vp-c-green: #5d80f4;
+  --vp-c-brand-dark: #5d80f4;
+  --vp-c-bg-alt: #fff; 
+}
+
+.dark {
+  --vp-c-bg-alt: #242424; 
+}
+
+.sidebar-link-item.active {
+  background: rgba(82, 179, 94, 0.1);
+}
+
+.vp-doc {
+  .f-dropdown {
+    ul {
+      list-style: none;
+    }
+  }
+
+  ul {
+    list-style: disc;
+    padding-left: 0;
+
+    li {
+      margin-top: 0;
+    }
+  }
+
+  .f-up-load__file-list {
+    margin: 0;
+  }
+
+  ul.f-list {
+    list-style: none;
+  }
+
+
+  table {
+    margin: 0;
+
+    th,
+    tr,
+    td {
+      border: none;
+      background: none;
+    }
+    tr:nth-child(2n) {
+      background: none;
+    }
+  }
+
+ 
+  .vp-table__container {
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: auto;
+
+    table {
+      width: 100%;
+      display: inline-table;
+    }
+
+    th,
+    tr:nth-child(2n) {
+      background-color: transparent;
+    }
+
+    td,
+    th {
+      text-align: left;
+      font-size: 15px;
+      border-bottom: 1px solid #eee;
+    }
+  }
+
+  p.f-text {
+    line-height: 1;
+  }
+}
+
+
+.VPNavBarTitle.has-sidebar {
+  border: none;
+}
+
+
+.VPSidebarGroup {
+  .VPLink.link.link {
+    margin: 0;
+    padding: 5px 18px;
+    transition: 0.4s;
+    padding-left: 14px !important;
+  }
+
+  .VPLink.link.link.active {
+    background: lighten(#2d5af1, 39%);
+    box-sizing: border-box;
+
+    .link-text {
+      font-weight: 600;
+    }
+  }
+}
+
+
+.VPSidebar.open {
+  z-index: 99999;
+}
+
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: #dddddd;
+  border-radius: 6px;
+}
+
+
+::-webkit-scrollbar {
+  height: 8px;
+  cursor: pointer;
+}
+
+
+.f-sticky-card {
+  margin-top: 20px;
+}
