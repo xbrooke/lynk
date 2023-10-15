@@ -17,16 +17,16 @@ const { nav, sidebar } = AutoNavPlugin({
   ],
   dirPrefix: '',
   filePrefix: '',
-  ignoreFiles: ['学习大纲', '学习计划', '面试准备', '互联网公司列表', 'index'],
+  ignoreFiles: ['个人简历','学习大纲', '学习计划', '面试准备', '互联网公司列表', 'index'],
   isCollapse: true,
 
 })
 
 export default defineConfig({
-  base: '',
+  base: '/',
   appearance: false,
   lang: 'zh-CN',
-  title: 'Code More Create',
+  title: 'Lynk Osn基地',
   // description: "Merlin's Blog",
   assetsInclude: ['**/*.xmind'],
   // vite: {
@@ -76,8 +76,8 @@ export default defineConfig({
       }
     ], sidebar,
     footer: {
-      message: 'MIT Licensed | Copyright © 2021 - 2022',
-      copyright: '粤ICP备2021165391号'
+      message: 'MIT Licensed | Copyright © 2023 - X',
+      copyright: '由徐大兵维护'
     },
     socialLinks: [
       {
