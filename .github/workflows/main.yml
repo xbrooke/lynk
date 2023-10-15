@@ -1,14 +1,30 @@
-name: docker deploy
+name: Deploy GitHub Pages
 
+# 触发条件：在 push 到 wiki 分支后
 on:
   push:
-    branches: [ "main" ]
+    branches:
+      - main
 
+# 任务
 jobs:
-  build:
-  # 该 JOB 在自建 Runner 中进行运行
-    runs-on: self-hosted
+  build-and-deploy:
+    # 服务器环境：最新版 Ubuntu
+    runs-on: ubuntu-latest
     steps:
-    # 切出代码，使用该 Action 将可以拉取最新代码
-      - uses: actions/checkout@v2
-      - run: sudo docker-compose up --build -d
+      # 拉取代码
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+
+      # 生成静态文件
+      - name: Build
+        run: npm install && npm run build
+      # 部署到 GitHub Pages
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: docs/.vitepress/dist
