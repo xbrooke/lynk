@@ -9,7 +9,7 @@
     "build": "vitepress build docs",
     "serve": "vitepress serve docs --port=8080",
     "oss:cli": "ossutil cp -rf ./dist oss://merlin-website/blog/",
-    "gitalk": "https://github.com/LibraHeresy/gitalk.git"
+    "gitalk": "git://github.com/lesonky/gitalk.git"
   },
   "devDependencies": {
     "vitepress": "1.0.0-rc.22",

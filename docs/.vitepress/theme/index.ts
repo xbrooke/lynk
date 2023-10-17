@@ -6,11 +6,12 @@ import './custom.css'
 import './var.css'
 import Layout from './components/Layout.vue'
 import SpotlightCursorText from './components/SpotlightCursorText.vue'
+import MyLayout from './MyLayout.vue'
 
 
 export default {
   ...DefaultTheme,
-  Layout,
+  Layout: MyLayout,
   enhanceApp({ app }) {
     // app.component('RunCode', RunCode)
     // app.component('XMindViewer', XMindViewer)
