@@ -6,10 +6,10 @@
   "license": "MIT",
   "scripts": {
     "dev": "vitepress dev docs",
-    "build": "vitepress build docs",
+    "build": "node ./builds/addComponents.js && vuepress build docs && node ./builds/delComponents.js",
     "serve": "vitepress serve docs --port=8080",
     "oss:cli": "ossutil cp -rf ./dist oss://merlin-website/blog/",
-    "gitalk": "git://github.com/lesonky/gitalk.git"
+    "gitalk": "https://github.com/LibraHeresy/gitalk.git"
   },
   "devDependencies": {
     "vitepress": "1.0.0-rc.22",
