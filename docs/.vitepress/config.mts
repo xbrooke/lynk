@@ -111,6 +111,14 @@ export default defineConfig({
           { text: 'OSN常见问题', link: '/azjc/wt/wt' },
         ],
       },
+      {
+        //分组标题1
+        text: '车友沟通',
+        collapsed: false,
+        items: [
+          { text: '微信群', link: '/azjc/wx/wx' },
+        ],
+      },
 
     ],
   },
