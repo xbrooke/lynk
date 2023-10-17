@@ -61,11 +61,20 @@ export default defineConfig({
             ],
           },
           {
-            // 分组标题1
+            // 分组标题2
             text: '基础安装',
             items: [
               { text: '快速上手', link: '/azjc/jcaz/ksss' },
             ],
+            
+          },
+          {
+            // 分组标题3
+            text: '常见问题',
+            items: [
+              { text: 'OSN常见问题', link: '/azjc/wt/wt' },
+            ],
+            
           },
         ],
         
@@ -90,6 +99,14 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: '快速上手', link: '/azjc/jcaz/ksss' },
+        ],
+      },
+      {
+        //分组标题1
+        text: '常见问题',
+        collapsed: false,
+        items: [
+          { text: 'OSN常见问题', link: '/azjc/wt/wt' },
         ],
       },
 
@@ -140,7 +157,7 @@ export default defineConfig({
     //页脚
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2023 备案号：<a href="https://beian.miit.gov.cn/">京****号</a>',
+      copyright: 'Copyright © 2023 备案号：<a href="https://beian.miit.gov.cn/">徐大兵维护</a>',
     },
 
 
