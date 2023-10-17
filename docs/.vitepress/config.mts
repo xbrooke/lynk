@@ -113,13 +113,22 @@ export default defineConfig({
       },
       {
         //分组标题1
+        text: '车机软件',
+        collapsed: false,
+        items: [
+          { text: '软件导航', link: '/nav/' },
+        ],
+      },
+
+      {
+        //分组标题1
         text: '车友沟通',
         collapsed: false,
         items: [
           { text: '微信群', link: '/azjc/wx/wx' },
         ],
       },
-
+      
     ],
   },
 

@@ -8,7 +8,8 @@
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
     "serve": "vitepress serve docs --port=8080",
-    "oss:cli": "ossutil cp -rf ./dist oss://merlin-website/blog/"
+    "oss:cli": "ossutil cp -rf ./dist oss://merlin-website/blog/",
+    "gitalk": "git://github.com/lesonky/gitalk.git"
   },
   "devDependencies": {
     "vitepress": "1.0.0-rc.22",
@@ -21,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Merlin218/Merlin218.github.io.git"
+    "url": "git+https://github.com/maomao1996/vitepress-nav-template.git"
   },
   "keywords": [],
   "bugs": {
@@ -34,6 +35,7 @@
     "@codemirror/lang-javascript": "^6.2.1",
     "@codemirror/theme-one-dark": "^6.1.2",
     "codemirror": "^6.0.1",
+    "gitalk": "^1.8.0",
     "unplugin-icons": "^0.17.0",
     "vue-codemirror": "^6.1.1",
     "xmind-embed-viewer": "^1.2.0"
