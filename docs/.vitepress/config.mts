@@ -65,6 +65,7 @@ export default defineConfig({
             text: '基础安装',
             items: [
               { text: '快速上手', link: '/azjc/jcaz/ksss' },
+              { text: '安装软件', link: '/azjc/jcaz/az' },
             ],
             
           },
@@ -99,6 +100,7 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: '快速上手', link: '/azjc/jcaz/ksss' },
+          { text: '安装软件', link: '/azjc/jcaz/az' },
         ],
       },
       {
