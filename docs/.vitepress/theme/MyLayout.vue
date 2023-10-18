@@ -37,8 +37,8 @@
           id: { name: `${location.pathname.replace(/\W/g, '')}` }, // 可选。默认为 location.href
           owner: 'xbrooke', // GitHub repository 所有者
           repo: 'gitalk-comments', // GitHub repository
-          clientID: '586540a11b02979040a3', // 自己的clientID
-          clientSecret: '92822779b2a9dca29357708482da85522c066e7e', // 自己的clientSecret
+          clientID: '9de323ed6f19700fe2e4', // 自己的clientID
+          clientSecret: '838eaaa0d08e09b57a0c8b1710244a3ca52f261d', // 自己的clientSecret
           admin: ['xbrooke'], // GitHub repository 所有者
           labels: [{ name: 'Gitalk' }], // GitHub issue 的标签
           createIssueManually: true, //如果当前页面没有相应的 isssue 且登录的用户属于 admin，则会自动创建 issue。如果设置为 true，则显示一个初始化页面，创建 issue 需要点击 init 按钮。
