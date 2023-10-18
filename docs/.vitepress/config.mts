@@ -51,6 +51,7 @@ export default defineConfig({
     //导航栏
     nav: [
       { text: '首页', link: '/' },
+      { text: '介绍', link: 'https://xbrooke.github.io/JIAN/' },
       {
         text: '🍉安装教程',
         items: [
