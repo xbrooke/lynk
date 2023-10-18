@@ -7,7 +7,6 @@ import './var.css'
 import Layout from './components/Layout.vue'
 import SpotlightCursorText from './components/SpotlightCursorText.vue'
 import MyLayout from './MyLayout.vue'
-import './gittalk.css'
 
 export default {
   ...DefaultTheme,
