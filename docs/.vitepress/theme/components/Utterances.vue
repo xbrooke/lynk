@@ -26,7 +26,7 @@ export default {
 
             utterances.setAttribute('theme', 'github-light')
 
-            utterances.setAttribute('repo', 'xbrooke/lynk')
+            utterances.setAttribute('repo', 'xbrooke/gitalk-comments')
 
             utterances.crossorigin = 'anonymous'
 
