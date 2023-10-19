@@ -1,21 +1,23 @@
 import DefaultTheme from 'vitepress/theme'
-// import RunCode from './plugins/run-code/RunCode.vue'
-// import XMindViewer from './plugins/xmind-viewer/XMindViewer.vue'
+//首页组件
 import Background from './components/Background.vue'
+import SpotlightCursorText from './components/SpotlightCursorText.vue'
+//首页组件
 import './custom.css'
 import './var.css'
 import Layout from './components/Layout.vue'
-import SpotlightCursorText from './components/SpotlightCursorText.vue'
-import MyLayout from './MyLayout.vue'
+import Utterances from './components/Utterances.vue'
+
 
 export default {
   ...DefaultTheme,
-  Layout: MyLayout,
+  Layout,
   enhanceApp({ app }) {
     // app.component('RunCode', RunCode)
     // app.component('XMindViewer', XMindViewer)
     app.component('Background', Background)
     app.component('SpotlightCursorText', SpotlightCursorText)
+    app.component('Utterances', Utterances)
   }
 
 }
