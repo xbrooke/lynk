@@ -118,7 +118,7 @@ export default defineConfig({
         text: '车机软件',
         collapsed: false,
         items: [
-          { text: '软件导航', link: '/azjc/ly/index' },
+          { text: '软件导航', link: '/azjc/ly/ly' },
         ],
       },
 
