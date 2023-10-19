@@ -45,6 +45,8 @@
           // proxy: "https://vercel.younglina.top/github_access_token",
         });
         gitment.render('gitalk-page-container');
+        proxy: "https://vercel.younglina.top/github_access_token",
+
       }
     }
   };
