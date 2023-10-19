@@ -1,0 +1,1 @@
+import{_ as a,o as t,c as e,Q as r}from"./chunks/framework.865c6d19.js";const u=JSON.parse('{"title":"安装软件","description":"","frontmatter":{},"headers":[],"relativePath":"azjc/jcaz/az.md","filePath":"azjc/jcaz/az.md"}'),s={name:"azjc/jcaz/az.md"},o=r("",20),n=[o];function p(h,l,i,_,c,g){return t(),e("div",null,n)}const m=a(s,[["render",p]]);export{u as __pageData,m as default};
