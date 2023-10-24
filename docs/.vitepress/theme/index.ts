@@ -7,6 +7,7 @@ import './custom.css'
 import './var.css'
 import Layout from './components/Layout.vue'
 //import Utterances from './components/Utterances.vue'
+import GiscusComment from './components/GiscusComment.vue'
 
 
 export default {
@@ -18,6 +19,7 @@ export default {
     app.component('Background', Background)
     app.component('SpotlightCursorText', SpotlightCursorText)
    // app.component('Utterances', Utterances)
+   app.component('GiscusComment', GiscusComment)
 
 
   }

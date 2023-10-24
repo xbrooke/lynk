@@ -1869,7 +1869,7 @@ vue-demi@>=0.14.6:
   resolved "https://registry.npmmirror.com/vue-demi/-/vue-demi-0.14.6.tgz"
   integrity sha512-8QA7wrYSHKaYgUxDA5ZC24w+eHm3sYCbp0EzcDwKqN3p6HqtTCGR/GVsPyZW92unff4UlcSh++lmqDWN3ZIq4w==
 
-"vue@^3.0.0-0 || ^2.6.0", vue@^3.3.4, vue@>=3.2.0, vue@3.3.6, vue@3.x:
+"vue@^3.0.0-0 || ^2.6.0", vue@^3.3.4, vue@^3.3.6, vue@>=3.2.0, vue@3.3.6, vue@3.x:
   version "3.3.6"
   resolved "https://registry.npmmirror.com/vue/-/vue-3.3.6.tgz"
   integrity sha512-jJIDETeWJnoY+gfn4ZtMPMS5KtbP4ax+CT4dcQFhTnWEk8xMupFyQ0JxL28nvT/M4+p4a0ptxaV2WY0LiIxvRg==
