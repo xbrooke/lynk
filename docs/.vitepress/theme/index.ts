@@ -7,36 +7,19 @@ import './custom.css'
 import './var.css'
 import Layout from './components/Layout.vue'
 //import Utterances from './components/Utterances.vue'
-import Giscus from '@giscus/react';
-
+import GiscusComments from './components/GiscusComments.vue'
 
 export default {
   ...DefaultTheme,
-  Layout,
+	Layout,
   enhanceApp({ app }) {
     // app.component('RunCode', RunCode)
     // app.component('XMindViewer', XMindViewer)
     app.component('Background', Background)
     app.component('SpotlightCursorText', SpotlightCursorText)
    // app.component('Utterances', Utterances)
-   return (
-    <Giscus
-      id="comments"
-      repo="xbrooke/lynk"
-      repoId="R_kgDOKgeenQ"
-      category="Announcements"
-      categoryId="DIC_kwDOKgeenc4CaZba"
-      mapping="pathname"
-      term="Welcome to @giscus/react component!"
-      reactionsEnabled="1"
-      emitMetadata="0"
-      inputPosition="top"
-      theme="zh-CN"
-      lang="en"
-      loading="lazy"
-    />
-  );
-   
+   app.component('GiscusComments', GiscusComments);
+
   }
 }
 
