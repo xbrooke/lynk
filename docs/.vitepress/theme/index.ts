@@ -6,7 +6,8 @@ import SpotlightCursorText from './components/SpotlightCursorText.vue'
 import './custom.css'
 import './var.css'
 import Layout from './components/Layout.vue'
-import Utterances from './components/Utterances.vue'
+//import Utterances from './components/Utterances.vue'
+//import Giscus from '@giscus/react';
 
 
 export default {
@@ -17,7 +18,8 @@ export default {
     // app.component('XMindViewer', XMindViewer)
     app.component('Background', Background)
     app.component('SpotlightCursorText', SpotlightCursorText)
-    app.component('Utterances', Utterances)
+   // app.component('Utterances', Utterances)
+   
   }
-
 }
+
