@@ -40,6 +40,7 @@ export default defineConfig({
 
   //主题配置
   themeConfig: {
+    comment: true,
     //左上角logo
     logo: '/logo.png',
     //logo: 'https://vitejs.cn/vite3-cn/logo-with-shadow.png', //远程引用

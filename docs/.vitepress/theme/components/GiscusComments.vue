@@ -6,7 +6,7 @@
         data-repo="xbrooke/lynk-giscus"
         data-repo-id="R_kgDOKkX5JA"
         data-mapping="pathname"
-        data-category="DIC_kwDOKkX5JM4CaZYe"
+        data-category="Q&A"
         data-reactions-enabled="1"
       ></div>
     </div>
