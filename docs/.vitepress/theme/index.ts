@@ -9,7 +9,7 @@ import Layout from './components/Layout.vue'
 //import Utterances from './components/Utterances.vue'
 import GiscusComment from './components/GiscusComment.vue'
 import Modal from './components/Modal.vue'
-
+import HoverZoomImage from './components/HoverZoomImage.vue'
 
 
 export default {
@@ -23,7 +23,8 @@ export default {
    // app.component('Utterances', Utterances)
    app.component('GiscusComment', GiscusComment)
    app.component('Modal', Modal)
-  
+   app.component('HoverZoomImage', HoverZoomImage)
+ 
 
 
   }

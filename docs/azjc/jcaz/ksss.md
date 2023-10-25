@@ -19,4 +19,4 @@
 U盘：第一次安装第三方软件需要用到U盘，后期可用于夸克云盘安装
 
 APK:[安装夸克](https://pan.quark.cn/s/bdbe66e51d34)
-<Utterances />
+<GiscusComment />
