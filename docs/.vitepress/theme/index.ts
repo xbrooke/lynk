@@ -8,6 +8,8 @@ import './var.css'
 import Layout from './components/Layout.vue'
 //import Utterances from './components/Utterances.vue'
 import GiscusComment from './components/GiscusComment.vue'
+import Modal from './components/Modal.vue'
+
 
 
 export default {
@@ -20,6 +22,8 @@ export default {
     app.component('SpotlightCursorText', SpotlightCursorText)
    // app.component('Utterances', Utterances)
    app.component('GiscusComment', GiscusComment)
+   app.component('Modal', Modal)
+  
 
 
   }

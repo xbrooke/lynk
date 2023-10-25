@@ -7,7 +7,7 @@ export default defineConfig({
   lang: 'zh-CN',
   title: "LYNK OSN基地",
   description: "领克OSN",
-
+  cleanUrls: true,
   // #region fav
   head: [
     ['link',{ rel: 'icon', href: '/logo.png'}],
@@ -32,9 +32,10 @@ export default defineConfig({
 
   //markdown配置
   markdown: {
-    //行号显示
-    lineNumbers: true, 
-
+    theme: 'github-dark-dimmed',
+    headers: {
+      level: [0, 0],
+    },
   },
 
 

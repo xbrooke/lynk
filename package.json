@@ -4,6 +4,7 @@
   "main": "index.js",
   "author": "merlin <863176846@qq.com>",
   "license": "MIT",
+  "type": "module",
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
