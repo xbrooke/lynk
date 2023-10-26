@@ -53,7 +53,7 @@ export default defineConfig({
     //导航栏
     nav: [
       { text: '首页', link: '/' },
-      { text: '介绍', link: 'https://xbrooke.github.io/JIAN/' },
+      { text: 'ChatGPT', link: 'https://ai.xbrooke.cn' },
       {
         text: '🍉安装教程',
         items: [
@@ -115,15 +115,7 @@ export default defineConfig({
           { text: 'OSN常见问题', link: '/azjc/wt/wt' },
         ],
       },
-      {
-        //分组标题1
-        text: '车机软件',
-        collapsed: false,
-        items: [
-          { text: '软件导航', link: '/azjc/ly/ly' },
-        ],
-      },
-
+     
       {
         //分组标题1
         text: '车友沟通',
@@ -132,6 +124,15 @@ export default defineConfig({
           { text: '微信群', link: '/azjc/wx/wx' },
         ],
       },
+      {
+        //分组标题1
+        text: '对我说',
+        collapsed: false,
+        items: [
+          { text: '留言板', link: '/azjc/ly/ly' },
+        ],
+      },
+
       
     ],
   },
