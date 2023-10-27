@@ -1,0 +1,1 @@
+import{_ as t,o as e,c as r,Q as a}from"./chunks/framework.a58a4709.js";const y=JSON.parse('{"title":"车机软件","description":"","frontmatter":{},"headers":[],"relativePath":"azjc/rj/rj.md","filePath":"azjc/rj/rj.md"}'),n={name:"azjc/rj/rj.md"},l=a("",2),d=[l];function s(c,i,g,o,h,_){return e(),r("div",null,d)}const p=t(n,[["render",s]]);export{y as __pageData,p as default};
