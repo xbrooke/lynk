@@ -11,7 +11,7 @@ const showModal = ref(false);
       <div v-show="showModal" class="modal-mask">
         <div class="modal-container">
           <p>WeChat</p>
-          <img src="/WeChat.jpg" alt="微信群">
+          <img src="https://s2.loli.net/2023/10/27/t4ZUHOrJBQosTP1.jpg" alt="微信群">
           <div class="model-footer">
             <a class="modal-button" @click="showModal = false">
               关闭
