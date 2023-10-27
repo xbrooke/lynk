@@ -109,6 +109,15 @@ export default defineConfig({
       },
       {
         //分组标题1
+        text: '软件',
+        collapsed: false,
+        items: [
+          { text: '车机软件', link: '/azjc/rj/rj' },
+         
+        ],
+      },
+      {
+        //分组标题1
         text: '常见问题',
         collapsed: false,
         items: [
