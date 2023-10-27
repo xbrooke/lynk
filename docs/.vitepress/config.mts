@@ -74,12 +74,34 @@ export default defineConfig({
             
           },
           {
-            // 分组标题3
+            //分组标题1
+            text: '软件',
+            items: [
+              { text: '车机软件', link: '/azjc/rj/rj' },
+             
+            ],
+          },
+          {
+            //分组标题1
             text: '常见问题',
             items: [
               { text: 'OSN常见问题', link: '/azjc/wt/wt' },
             ],
-            
+          },
+         
+          {
+            //分组标题1
+            text: '车友沟通',
+            items: [
+              { text: '微信群', link: '/azjc/wx/wx' },
+            ],
+          },
+          {
+            //分组标题1
+            text: '对我说',
+            items: [
+              { text: '留言板', link: '/azjc/ly/ly' },
+            ],
           },
         ],
         
@@ -177,9 +199,9 @@ export default defineConfig({
 
     //社交链接
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/Yiov/vitepress-doc' },
-      { icon: 'twitter', link: 'https://twitter.com/' }, 
-      { icon: 'discord', link: 'https://chat.vitejs.dev/' }, 
+      { icon: 'github', link: 'https://github.com/xbrooke/lynk '},
+      //{ icon: 'twitter', link: 'https://twitter.com/' }, 
+     // { icon: 'discord', link: 'https://chat.vitejs.dev/' }, 
     ],
 
     //手机端深浅模式文字修改
