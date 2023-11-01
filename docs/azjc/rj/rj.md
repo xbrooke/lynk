@@ -12,3 +12,4 @@
 |          音乐软件           | Apple Music 测试版 | Apple Music得以配合Android 平板屏幕而放大、调整画面，也能显示更多歌手、唱片、单曲或其他内容。 | [点击下载](https://pan.quark.cn/s/eeb3ee5cd844) |
 |          工具软件           |     ES文件管理     |         VIP破解版，可与手机互联，免U盘给车机安装软件         | [点击下载](https://pan.quark.cn/s/8e02ed29d96b) |
 
+更多软件请看APP汇总：[点击查看](https://docs.qq.com/sheet/DTEpHYkdwT3dtRGZB?tab=0l3gn4&u=67ccecac23bd4027a475228123dab46d)
