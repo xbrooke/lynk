@@ -12,6 +12,7 @@ import Modal from './components/Modal.vue'
 import HoverZoomImage from './components/HoverZoomImage.vue'
 
 
+
 export default {
   ...DefaultTheme,
 	Layout,
@@ -24,6 +25,9 @@ export default {
    app.component('GiscusComment', GiscusComment)
    app.component('Modal', Modal)
    app.component('HoverZoomImage', HoverZoomImage)
+  
+
+
  
 
 

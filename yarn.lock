@@ -1792,10 +1792,10 @@ unbox-primitive@^1.0.2:
     has-symbols "^1.0.3"
     which-boxed-primitive "^1.0.2"
 
-unplugin-icons@^0.17.1:
-  version "0.17.1"
-  resolved "https://registry.npmmirror.com/unplugin-icons/-/unplugin-icons-0.17.1.tgz"
-  integrity sha512-KsWejBPCHokYCNDQUzGu6R3E3XDYH/YpewgQwrVBXgpl1iR0RdW1NEGNdjlbuapwVnZXVgA5eiDTfNaQCawSdg==
+unplugin-icons@^0.17.4:
+  version "0.17.4"
+  resolved "https://mirrors.cloud.tencent.com/npm/unplugin-icons/-/unplugin-icons-0.17.4.tgz"
+  integrity sha512-PHLxjBx3ZV8RUBvfMafFl8uWH88jHeZgOijcRpkwgne7y2Ovx7WI0Ltzzw3fjZQ7dGaDhB8udyKVdm9N2S6BIw==
   dependencies:
     "@antfu/install-pkg" "^0.1.1"
     "@antfu/utils" "^0.7.6"
@@ -1831,10 +1831,10 @@ vitepress-auto-nav-sidebar@0.0.5:
   resolved "https://registry.npmmirror.com/vitepress-auto-nav-sidebar/-/vitepress-auto-nav-sidebar-0.0.5.tgz"
   integrity sha512-UeJw60LEgVaDUoS3u3u9W+dPyinl8p6aMlDGNzEVwa5NP0tsSSwqiSZX2PcJ81J8KL6sYBmhbIdEUDt/6iFuPA==
 
-vitepress@1.0.0-rc.24:
-  version "1.0.0-rc.24"
-  resolved "https://mirrors.cloud.tencent.com/npm/vitepress/-/vitepress-1.0.0-rc.24.tgz"
-  integrity sha512-RpnL8cnOGwiRlBbrYQUm9sYkJbtyOt/wYXk2diTcokY4yvks/5lq9LuSt+MURWB6ZqwpSNHvTmxgaSfLoG0/OA==
+vitepress@1.0.0-rc.25:
+  version "1.0.0-rc.25"
+  resolved "https://mirrors.cloud.tencent.com/npm/vitepress/-/vitepress-1.0.0-rc.25.tgz"
+  integrity sha512-1dqWiHNThNrVZ08ixmfEDBEH+764KOgnev9oXga/x6cN++Vb9pnuu8p3K6DQP+KZrYcG+WiX7jxal0iSNpAWuQ==
   dependencies:
     "@docsearch/css" "^3.5.2"
     "@docsearch/js" "^3.5.2"
@@ -1875,7 +1875,7 @@ vue-demi@>=0.14.6:
   resolved "https://registry.npmmirror.com/vue-demi/-/vue-demi-0.14.6.tgz"
   integrity sha512-8QA7wrYSHKaYgUxDA5ZC24w+eHm3sYCbp0EzcDwKqN3p6HqtTCGR/GVsPyZW92unff4UlcSh++lmqDWN3ZIq4w==
 
-"vue@^3.0.0-0 || ^2.6.0", vue@^3.2.25, vue@^3.3.6, vue@^3.3.7, vue@>=3.2.0, vue@3.3.8, vue@3.x:
+"vue@^3.0.0-0 || ^2.6.0", vue@^3.2.25, vue@^3.3.6, vue@^3.3.8, vue@>=3.2.0, vue@3.3.8, vue@3.x:
   version "3.3.8"
   resolved "https://mirrors.cloud.tencent.com/npm/vue/-/vue-3.3.8.tgz"
   integrity sha512-5VSX/3DabBikOXMsxzlW8JyfeLKlG9mzqnWgLQLty88vdZL7ZJgrdgBOmrArwxiLtmS+lNNpPcBYqrhE6TQW5w==
