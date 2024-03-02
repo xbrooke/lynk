@@ -128,6 +128,7 @@ export default defineConfig({
         items: [
           { text: '快速上手', link: '/azjc/jcaz/ksss' },
           { text: '安装软件', link: '/azjc/jcaz/az' },
+          { text: '设置安装', link: '/azjc/jcaz/sz' },
         ],
       },
       {
