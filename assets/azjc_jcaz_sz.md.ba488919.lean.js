@@ -1,0 +1,1 @@
+import{_ as a,o as t,c as o,Q as s}from"./chunks/framework.bca67864.js";const _=JSON.parse('{"title":"安装设置","description":"","frontmatter":{},"headers":[],"relativePath":"azjc/jcaz/sz.md","filePath":"azjc/jcaz/sz.md"}'),r={name:"azjc/jcaz/sz.md"},e=s("",23),l=[e];function n(i,c,d,p,h,u){return t(),o("div",null,l)}const b=a(r,[["render",n]]);export{_ as __pageData,b as default};
