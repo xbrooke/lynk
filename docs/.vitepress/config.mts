@@ -94,7 +94,7 @@ export default defineConfig({
             //分组标题1
             text: '车友沟通',
             items: [
-              { text: '微信群', link: '/azjc/wx/wx' },
+              { text: '企微群', link: '/azjc/wx/wx' },
             ],
           },
           {
